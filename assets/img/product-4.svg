@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#0c0c0c"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#bg)"/>
+  <circle cx="600" cy="260" r="140" fill="#f0f0f0" opacity="0.04"/>
+  <g filter="url(#shadow)">
+    <path d="M315 520c0-154 133-260 285-260s285 106 285 260v120H315V520z" fill="#0f0f10" stroke="#3b3b3b" stroke-width="8"/>
+    <path d="M332 620c42-53 109-88 185-88h166c74 0 142 35 185 88l54 60c22 24 14 62-16 75-57 24-164 45-371 45s-314-21-371-45c-30-13-38-51-16-75l54-60z" fill="#101010" stroke="#4a4a4a" stroke-width="8"/>
+    <path d="M600 265v360" stroke="#373737" stroke-width="10"/>
+    <path d="M450 306c31 44 47 95 47 152v182" stroke="#373737" stroke-width="8"/>
+    <path d="M750 306c-31 44-47 95-47 152v182" stroke="#373737" stroke-width="8"/>
+  </g>
+  <text x="600" y="520" text-anchor="middle" fill="#ffffff" font-size="180" font-family="Georgia, serif" font-weight="700">4</text>
+  <text x="600" y="955" text-anchor="middle" fill="#f4f4f5" font-size="72" font-family="Arial, sans-serif" font-weight="700">PLACEHOLDER PRODUCT</text>
+  <text x="600" y="1028" text-anchor="middle" fill="#8d8d95" font-size="40" font-family="Arial, sans-serif">Swap with real cap photo later</text>
+</svg>

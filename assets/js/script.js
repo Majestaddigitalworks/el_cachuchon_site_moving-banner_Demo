@@ -1,0 +1,15 @@
+function fakeSubmit(event) {
+  event.preventDefault();
+  alert('Thanks — this signup is a placeholder for now.');
+  return false;
+}
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.14 });
+
+document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
